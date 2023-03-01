@@ -8,3 +8,5 @@ to install prerequisite library:
 to build sw, using bat file:
 - running in background: `build.bat appbg`
 - show the camera: `build.bat app`
+
+or, download executeable file in folder /dist
