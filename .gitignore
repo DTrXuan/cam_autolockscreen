@@ -1,6 +1,5 @@
 # Ignore build artifacts
 build/
-dist/
 *.log
 
 # Ignore configuration files
