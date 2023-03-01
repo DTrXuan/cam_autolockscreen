@@ -38,10 +38,13 @@ while True:
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
         cv2.putText(frame, "Press q to close", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-        
+    
     # Show the frame
     cv2.imshow('Face Tracker', frame)
     
+    # Add a delay to reduce processing frequency
+    time.sleep(0.2)
+
     # Check for the 'q' key to exit
     if cv2.waitKey(1) == ord('q'):
         break
