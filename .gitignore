@@ -1,0 +1,12 @@
+# Ignore build artifacts
+build/
+dist/
+*.log
+
+# Ignore configuration files
+config.ini
+settings.cfg
+
+# Ignore temporary files
+*.tmp
+*.bak
